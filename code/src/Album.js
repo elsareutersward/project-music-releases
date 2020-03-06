@@ -6,7 +6,6 @@ import { Artist } from './Artist'
 
 
 export const Album = (props) => {
-  console.log(props)
     return (
       <div className="Card">
           <div className="Symbols">

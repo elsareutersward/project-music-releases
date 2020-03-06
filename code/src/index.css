@@ -13,6 +13,14 @@ code {
     monospace;
 }
 
+h1 {
+  color:white;
+  font-size: 22px;
+  margin: 10px;
+  border-bottom: 1px solid #a0a0a0;
+  padding-bottom: 10px;
+}
+
 .Page {
   display: flex;
   flex-wrap: wrap;
@@ -63,10 +71,6 @@ code {
   opacity: 0.0;
 }
 
-/* .Card:hover {
-  background-color: red;
-} */
-
 .Symbols:hover {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.336);
@@ -86,5 +90,6 @@ width: 35px;
 .Play:hover {
   background-color: rgba(0, 0, 0, 0.281);
   border-radius: 50%;
-  
+  height: 75px;
+  width: 75px;
 }

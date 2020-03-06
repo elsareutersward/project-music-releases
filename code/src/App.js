@@ -7,6 +7,8 @@ console.log(data)
 
 export const App = () => {
   return (
+    <div>
+    <h1>New albums & singles</h1>
     <div className="Page">
       {data.albums.items.map((album) => {
         return ( <Album 
@@ -18,6 +20,6 @@ export const App = () => {
       )}
       )}
        </div>
-      
+      </div>
   )
 }
