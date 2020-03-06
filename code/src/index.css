@@ -25,6 +25,7 @@ code {
   position: relative;
   margin: 20px auto;
   width: 300px;
+  max-width: 100%;
 }
 
 .Title {
@@ -51,23 +52,24 @@ code {
 }
 
 
+
 .Symbols {
   display: flex;
   justify-content: space-evenly;
   position: absolute;
-  top: 32%;
+  height:300px;
   width: 300px;
   align-items: center;
   opacity: 0.0;
 }
 
-.Card:hover {
-  opacity: ;
-}
+/* .Card:hover {
+  background-color: red;
+} */
 
-.Card:hover + .Symbols {
+.Symbols:hover {
   opacity: 1;
-
+  background-color: rgba(0, 0, 0, 0.336);
 }
 
 .Like, 
@@ -79,4 +81,10 @@ width: 35px;
 .Play {
   height: 70px;
   width: 70px;
+}
+
+.Play:hover {
+  background-color: rgba(0, 0, 0, 0.281);
+  border-radius: 50%;
+  
 }
