@@ -37,10 +37,19 @@ h1 {
 }
 
 .Title {
+  margin: 7px 0;
+}
+
+.Title a:link {
+  text-decoration: none;
   font-weight: 700;
   font-size: 14px;
   font-family: Helvetica;
-  margin: 7px 0;
+  color: white;
+}
+
+.Title a:visited {
+  color: white;
 }
 
 .Title:hover {
@@ -49,8 +58,17 @@ h1 {
 }
 
 .Artist {
+  display: flex;
+}
+
+.Artist a:link {
+  text-decoration: none;
   font-size: 14px;
   font-family: Helvetica;
+  color:#a0a0a0;
+}
+
+.Artist a:visited {
   color:#a0a0a0;
 }
 
@@ -74,6 +92,7 @@ h1 {
 .Symbols:hover {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.336);
+  cursor: pointer;
 }
 
 .Like, 
@@ -88,7 +107,7 @@ width: 35px;
 }
 
 .Play:hover {
-  background-color: rgba(0, 0, 0, 0.281);
+  background-color: rgba(0, 0, 0, 0.568);
   border-radius: 50%;
   height: 75px;
   width: 75px;

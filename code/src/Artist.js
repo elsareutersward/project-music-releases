@@ -8,3 +8,9 @@ export const Artist = (props) => {
         </div>
     )
 } 
+
+// export const Artist = (props) => {
+//   return (
+//     <span>{props.item.name} </span>
+//   )
+// }
